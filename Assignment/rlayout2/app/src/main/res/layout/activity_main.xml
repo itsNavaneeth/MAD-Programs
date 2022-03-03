@@ -48,8 +48,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="-111dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Enter USN" />
+        android:hint="Enter USN"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/button"

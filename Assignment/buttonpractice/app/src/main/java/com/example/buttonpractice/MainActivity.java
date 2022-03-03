@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
     //func 1
     private void addRandomBtnName() {
-        txt1 = (EditText) findViewById(R.id.editTextTextPersonName);
-        txt2 = (EditText) findViewById(R.id.editTextTextPersonName2);
+        txt1 = (EditText) findViewById(R.id.PersonName1);
+        txt2 = (EditText) findViewById(R.id.PersonName2);
         btn2 = (Button) findViewById(R.id.button2);
 
 
@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
 
     //func 2
     public void mybtnfunc(View view) {
-        txt1 = (EditText) findViewById(R.id.editTextTextPersonName);
-        txt2 = (EditText) findViewById(R.id.editTextTextPersonName2);
+        txt1 = (EditText) findViewById(R.id.PersonName1);
+        txt2 = (EditText) findViewById(R.id.PersonName2);
 
         String name = txt1.getText().toString();
         String branch = txt2.getText().toString();
