@@ -34,8 +34,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         select_Time = (Button) findViewById(R.id.select_Time);
 
         calendar = Calendar.getInstance();
-        int hour = calendar.get(Calendar.HOUR_OF_DAY);
-        int minutes = calendar.get(Calendar.MINUTE);
+
 
         select_Date.setOnClickListener(new View.OnClickListener() {
             @Override
