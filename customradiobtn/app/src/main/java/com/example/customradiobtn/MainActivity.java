@@ -25,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
         int selectedId = radioGroup.getCheckedRadioButtonId();
         genderradioButton = (RadioButton) findViewById(selectedId);
         if(selectedId==-1){
-            Toast.makeText(MainActivity.this,"Nothing selected", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"Nothing selected", Toast.LENGTH_SHORT).show();
         }
         else{
-            Toast.makeText(MainActivity.this,genderradioButton.getText(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),genderradioButton.getText(), Toast.LENGTH_SHORT).show();
         }
 
     }
