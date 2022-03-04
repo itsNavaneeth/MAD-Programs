@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">eventHandling</string>
+    <string name = "msg"> This is the message</string>
+</resources>
